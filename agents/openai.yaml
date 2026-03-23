@@ -1,0 +1,4 @@
+interface:
+  display_name: "Issue 交付"
+  short_description: "方案、拆单、执行、review 流程"
+  default_prompt: "当用户已经提供方案，或希望与 Codex 共创方案，再把方案落到仓库根目录 `.work-plans/` 下的 todolist/issues，待审核通过后按 issue 顺序实现并逐项更新进度与 review 状态，且默认在全部 issue 完成后统一汇报时，使用这个 skill。"
